@@ -336,6 +336,10 @@
             "message": "Même si le troll est aveugle, votre odeur vous a trahi, vous mourrez écrasé ..."
         },
         "22": {
+            "pnj": {
+                "name": "Garde",
+                "skin": "/img/skins/garde.png"
+            },
             "message": "Vous êtes désormais un garde néophyte",
             "answers": {
                 "1": {
