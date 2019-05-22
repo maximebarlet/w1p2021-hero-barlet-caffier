@@ -6,7 +6,7 @@
   },
   "scripts": {
     "dev": "cp -R app/assets/img dist && parcel app/index.html",
-    "build": "parcel build app/index.html",
+    "build": "cp -R app/assets/img dist && parcel build app/index.html",
     "lint": "esw . --ext .js,.vue --watch --color"
   },
   "repository": {
