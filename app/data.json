@@ -1,0 +1,865 @@
+{
+    "character": {
+        "1": {
+            "name": "Claudin Le Meunier",
+            "speciality": "Aucune compétence",
+            "skin": "/img/skins/paysan.png"
+        },
+        "2": {
+            "name": "Yvain Le Berger",
+            "speciality": "Aucune compétence",
+            "skin": "/img/skins/paysan2.png"
+        }
+    },
+    "pnj": {
+        "1": {
+            "name": "Intendant",
+            "skin": "/img/skins/intendant.png"
+        },
+        "2": {
+            "name": "Roi",
+            "skin": "/img/skins/roi.png"
+        },
+        "3": {
+            "name": "Troll",
+            "skin": "/img/skins/goblin.png"
+        },
+        "4": {
+            "name": "Chevalier1",
+            "skin": "/img/skins/chevalier.png"
+        },
+        "5": {
+            "name": "Chevalier2",
+            "skin": "/img/skins/chevalier.png"
+        },
+        "6": {
+            "name": "Chevalier3",
+            "skin": "/img/skins/chevalier.png"
+        }
+    },
+    "game": {
+        "1": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/img/skins/intendant.png"
+            },
+            "message": "Bienvenue à toi le gueux ! Tes guenilles sont sales et usées et ton odeur corporelle me rappelle la fosse commune ! Prêt à te hisser au sommet de l'échelle sociale ?",
+            "answers": {
+                "1": {
+                    "message": "Oui",
+                    "link": "/game/2"
+                },
+                "2": {
+                    "message": "Pas encore...",
+                    "link": "/game/1"
+                }
+            }
+        },
+        "2": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/img/skins/intendant.png"
+            },
+            "message": "Jour 1: Notre Seigneur n'est pas content, les réserves de blé sont de plus en plus faible ! File donc au champs !",
+            "answers": {
+                "1": {
+                    "message": "Aller travailler",
+                    "link": "/game/3"
+                },
+                "2": {
+                    "message": "Aller à la taverne",
+                    "link": "/game/4"
+                }
+            }
+        },
+        "3": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/img/skins/intendant.png"
+            },
+            "message": "Notre Seigneur est content ! Les réserves se remplissent plus vite grâce à ton travail !",
+            "answers": {
+                "1": {
+                    "message": "Prendre la récompense",
+                    "link": "/game/5"
+                },
+                "2": {
+                    "message": "Refuser poliment",
+                    "link": "/game/6"
+                }
+            }
+        },
+        "4": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/img/skins/intendant.png"
+            },
+            "message": "Mes hommes m'ont assurés que tu a passé ta journée à te saouler comme un porc ! Tu sera châtié !",
+            "answers": {
+                "1": {
+                    "message": "Accepter son sort",
+                    "link": "/game/7"
+                },
+                "2": {
+                    "message": "S'enfuir en courant",
+                    "link": "/game/8"
+                }
+            }
+        },
+        "5": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/img/skins/intendant.png"
+            },
+            "message": "Prends donc ce quart de viande, tu l'as mérité ! ",
+            "answers": {
+                "1": {
+                    "message": "Partir en s'inclinant",
+                    "link": "/game/9"
+                },
+                "2": {
+                    "message": "Reclamer de l'alcool en plus",
+                    "link": "/game/7"
+                }
+            }
+        },
+        "6": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/img/skins/intendant.png"
+            },
+            "message": "Ton dévouement est fort appréciable, notre seigneur te convie à sa table !",
+            "answers": {
+                "1": {
+                    "message": "Accepter avec joie",
+                    "link": "/game/9"
+                }
+            }
+        },
+        "7": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/img/skins/intendant.png"
+            },
+            "message": "20 coups de fouet pour toi, ivrogne !!",
+            "answers": {
+                "1": {
+                    "message": "Subir le chatiment",
+                    "link": "/game/9"
+                }
+            }
+        },
+        "8": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/img/skins/intendant.png"
+            },
+            "message": "Le gueu s'enfuit dans la forêt. GARDES ! Laissez le filer, les loups se chargeront de lui !!!",
+            "answers": {
+                "1": {
+                    "message": "S'enfoncer dans la forêt",
+                    "link": "/game/13"
+                }
+            }
+        },
+        "9": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/img/skins/intendant.png"
+            },
+            "message": "Il est l'heure de dormir, nul ne sait ce que le lendemain lui réserve.",
+            "answers": {
+                "1": {
+                    "message": "Aller dormir",
+                    "link": "/game/11"
+                }
+            }
+        },
+        "10": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/img/skins/intendant.png"
+            },
+            "message": "Il est l'heure de dormir, espérons que tu ne mourra pas avant demain !",
+            "answers": {
+                "1": {
+                    "message": "Dormir au pied d'un arbre",
+                    "link": "/game/12"
+                }
+            }
+        },
+        "11": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/img/skins/intendant.png"
+            },
+            "message": "Jour 2: Vous vous réveillez chez vous",
+            "answers": {
+                "1": {
+                    "message": "Se lever",
+                    "link": "/game/14"
+                },
+                "2": {
+                    "message": "Rester au lit",
+                    "link": "/game/15"
+                }
+            }
+        },
+        "12": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/img/skins/intendant.png"
+            },
+            "message": "Jour 2: Vous vous réveillez dans la forêt, vous apercevez au loin le château",
+            "answers": {
+                "1": {
+                    "message": "Rejoindre la maison",
+                    "link": "/game/15"
+                }
+            }
+        },
+        "13": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/img/skins/intendant.png"
+            },
+            "message": "Jour 2: Vous vous réveillez dans la forêt, vous n'avez aucune idée de l'endroit ou vous êtes",
+            "answers": {
+                "1": {
+                    "message": "Prendre à droite",
+                    "link": "/game/25"
+                },
+                "2": {
+                    "message": "Prendre à gauche",
+                    "link": "/game/25"
+                }
+            }
+        },
+        "14": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/img/skins/intendant.png"
+            },
+            "message": "Bien le bonjour paysan, aujourd’hui, notre seigneur compte recruter de nouveaux gardes ",
+            "answers": {
+                "1": {
+                    "message": "Aller postuler",
+                    "link": "/game/16"
+                }
+            }
+        },
+        "15": {
+            "message": "Vous vous faites attraper, vous resterez cloué au piloris jusqu’a la mort ..."
+        },
+        "16": {
+            "pnj": {
+                "name": "Seigneur",
+                "skin": "/img/skins/roi.png"
+            },
+            "message": "Ainsi tu souhaite rejoindre ma garde ? Soite. Si tu bat ce troll des montagnes, tu deviendra garde néophyte !",
+            "answers": {
+                "1": {
+                    "message": "Accepter",
+                    "link": "/game/17"
+                },
+                "2": {
+                    "message": "Se défiler",
+                    "link": "/game/18"
+                }
+            }
+        },
+        "17": {
+            "pnj": {
+                "name": "Troll",
+                "skin": "/img/skins/goblin.png"
+            },
+            "message": "Agrouh !!! (Je vais t’étriper !)",
+            "answers": {
+                "1": {
+                    "message": "Viser les yeux",
+                    "link": "/game/19"
+                },
+                "2": {
+                    "message": "Viser les jambes",
+                    "link": "/game/24"
+                }
+            }
+        },
+        "18": {
+            "pnj": {
+                "name": "Seigneur",
+                "skin": "/img/skins/roi.png"
+            },
+            "message": "Je vois, tu n’as pas l’étoffe d’un garde ! Hors de ma vue poltron !",
+            "answers": {
+                "1": {
+                    "message": "Partir",
+                    "link": "/game/23"
+                }
+            }
+        },
+        "19": {
+            "pnj": {
+                "name": "Troll",
+                "skin": "/img/skins/goblin.png"
+            },
+            "message": "Grahouuu !!! (Ahhh, j’y vois que dalle !)",
+            "answers": {
+                "1": {
+                    "message": "En profiter pour l'égorger",
+                    "link": "/game/20"
+                },
+                "2": {
+                    "message": "Se sentir coupable",
+                    "link": "/game/21"
+                }
+            }
+        },
+        "20": {
+            "pnj": {
+                "name": "Seigneur",
+                "skin": "/img/skins/roi.png"
+            },
+            "message": "Bravo !! Je savais que tu n’en ferai qu’une bouchée ! Bienvenue dans la garde !",
+            "answers": {
+                "1": {
+                    "message": "Devenir garde néophyte",
+                    "link": "/game/22"
+                },
+                "2": {
+                    "message": "Se raviser",
+                    "link": "/game/18"
+                }
+            }
+        },
+        "21": {
+            "message": "Même si le troll est aveugle, votre odeur vous a trahi, vous mourrez écrasé ..."
+        },
+        "22": {
+            "message": "Vous êtes désormais un garde néophyte",
+            "answers": {
+                "1": {
+                    "message": "Dormir",
+                    "link": "/game/26"
+                },
+                "2": {
+                    "message": "Fêter l'événement avec moulte boissons douteuses",
+                    "link": "/game/27"
+                }
+            }
+        },
+        "23": {
+            "message": "Vous vous faites égorger par un malfrat en sortant du chateau, vous mourrez"
+        },
+        "24": {
+            "message": "C’est inneficace, le troll vous saute dessus et vous mourrez ecrasé"
+        },
+        "25": {
+            "message": "Vous tombez sur une horde de loup, vous terminez en festin pour la meute"
+        },
+        "26": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/img/skins/intendant.png"
+            },
+            "message": "Jour 3: Bien le bonjour, désormais vous êtes garde, votre première mission est de débusquer un groupe de rebelles cachés dans la forêt, ramenez les morts ou vifs !!",
+            "answers": {
+                "1": {
+                    "message": "Partir en mission",
+                    "link": "/game/30"
+                }
+            }
+        },
+        "27": {
+            "message": "Jour 3: vous vous réveillez dans un lit qui n’est pas le vôtre",
+            "answers": {
+                "1": {
+                    "message": "Partir le plus vite possible, par la fenêtre",
+                    "link": "/game/26"
+                },
+                "2": {
+                    "message": "Regarder qui a passer la nuit avec vous",
+                    "link": "/game/28"
+                }
+            }
+        },
+        "28": {
+            "message": "Sacrebleu !! La fillote du seigneur ! Si je reste ici, je meurs assurément",
+            "answers": {
+                "1": {
+                    "message": "Sortir de la chambre, par la porte",
+                    "link": "/game/29"
+                }
+            }
+        },
+        "29": {
+            "message": "Intendant: alors comme ca on fricote avec la fillote de notre seigneur, tu mourra écorché sur la place du marché !"
+        },
+        "30": {
+            "message": "Après plusieurs heure de traque, vous apercevez quelqu’un au loin",
+            "answers": {
+                "1": {
+                    "message": "Foncer sur lui",
+                    "link": "/game/31"
+                },
+                "2": {
+                    "message": "Faire semblant de ne pas l'avoir vu",
+                    "link": "/game/35"
+                }
+            }
+        },
+        "31": {
+            "message": "Vous sautez sur votre cible: il s’agit d’un rebelle",
+            "answers": {
+                "1": {
+                    "message": "L'éxecuter sur le champs !",
+                    "link": "/game/32"
+                },
+                "2": {
+                    "message": "Se servir de lui pour trouver le reste du groupe",
+                    "link": "/game/36"
+                }
+            }
+        },
+        "32": {
+            "message": "Vos collègues vous surnomme à présent “L’idiot de la garde”, pour avoir tué le rebelle qui aurait pu vous servir",
+            "answers": {
+                "1": {
+                    "message": "Accepter d’etre la nouvelle tete de turc de la garde",
+                    "link": "/game/33"
+                },
+                "2": {
+                    "message": "Vos émotions prennent le dessus, vous pleurez par terre en pls et vous faite dans vos groles par dessus le marché …",
+                    "link": "/game/34"
+                }
+            }
+        },
+        "33": {
+            "message": "Vous poursuivez votre quête",
+            "answers": {
+                "1": {
+                    "message": "Prendre à gauche",
+                    "link": "/game/36"
+                },
+                "2": {
+                    "message": "Prendre à droite",
+                    "link": "/game/35"
+                }
+            }
+        },
+        "34": {
+            "message": "Vos collègues pris de pitié, promettent de ne plus se moquer de vous, après tout, ce n’est que votre première mission !",
+            "answers": {
+                "1": {
+                    "message": "Vous vous relevez et vous repartez avec le groupe",
+                    "link": "/game/33"
+                }
+            }
+        },
+        "35": {
+            "message": "Vous rentrez de mission bredouille, le seigneur est furieux, vous passerez le reste de votre existence dans une gôle"
+        },
+        "36": {
+            "message": "Vous tombez par hasard sur le camp rebelle",
+            "answers": {
+                "1": {
+                    "message": "Lancer l'assault",
+                    "link": "/game/37"
+                },
+                "2": {
+                    "message": "Attendre la nuit",
+                    "link": "/game/38"
+                }
+            }
+        },
+        "37": {
+            "message": "Vous foncez sur le camp, les rebelles, qui étaient sur le qui vive, déciment votre escouade sans difficultée"
+        },
+        "38": {
+            "message": "La nuit est tombée",
+            "answers": {
+                "1": {
+                    "message": "Lancer l'assault",
+                    "link": "/game/37"
+                },
+                "2": {
+                    "message": "Vous égorgez stratégiquement les gardes postés autour du camp ",
+                    "link": "/game/39"
+                }
+            }
+        },
+        "39": {
+            "message": "Les gardes sont hors d’état de nuire, vous faites prisonnier le reste du camp en les surprenant dans leur sommeil",
+            "answers": {
+                "1": {
+                    "message": "Rentrer au chateau",
+                    "link": "/game/40"
+                }
+            }
+        },
+        "40": {
+            "pnj": {
+                "name": "Seigneur",
+                "skin": "/img/skins/roi.png"
+            },
+            "message": "Le seigneur vous félicite pour le succès de cette mission, votre bravoure vous permet d’obtenir le titre de chevalier",
+            "answers": {
+                "1": {
+                    "message": "Devenir chevalier",
+                    "link": "/game/41"
+                }
+            }
+        },
+        "41": {
+            "message": "Vous êtes désormais un chevalier",
+            "answers": {
+                "1": {
+                    "message": "Dormir",
+                    "link": "/game/42"
+                },
+                "2": {
+                    "message": "Aller faire un tour sur votre nouvelle monture",
+                    "link": "/game/43"
+                }
+            }
+        },
+        "42": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/img/skins/intendant.png"
+            },
+            "message": "Jour 4: Je vous apporte une terrible nouvelle, notre seigneur bien aimé s’est tué cette nuit après avoir voulu se raser avec son épée, le pauvre s’est tranché la gorge. Quoi qu’il en soit, en l’absence de descendance, la loi est claire: “Un tournoi entre les chevaliers de la seigneurie doit etre organisé afin de désigner le nouveau seigneur”. Vous sentez vous pret à relever le défi ?!",
+            "answers": {
+                "1": {
+                    "message": "Je vais me battre",
+                    "link": "/game/44"
+                },
+                "2": {
+                    "message": "Je peux pas j'ai piscine",
+                    "link": "/game/44"
+                }
+            }
+        },
+        "43": {
+            "message": "Vous galopez dans la foret en pleine nuit. Votre visage d’ahuri rencontre malencontreusement une solide branche, vous mourrez "
+        },
+        "44": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/img/skins/intendant.png"
+            },
+            "message": "Je n’en attendais pas moi de votre part ! Votre premier adversaire n’est autre que Godefroy de la Tonelle, un chevalier expérimenté et assoifé de combat ! Tenez vous pret !  ",
+            "answers": {
+                "1": {
+                    "message": "Engager le combat",
+                    "link": "/game/45"
+                },
+                "2": {
+                    "message": "S’enfuir du terrain à quatre pattes, en espérant que personne ne vous remarque",
+                    "link": "/game/45"
+                }
+            }
+        },
+        "45": {
+            "pnj": {
+                "name": "Godefroy de la Tonelle",
+                "skin": "/img/skins/chevalier.png"
+            },
+            "message": "“Je suis Godefroy de la Tonelle, et c’est moi qui deviendra le nouveau Seigneur !”",
+            "answers": {
+                "1": {
+                    "message": "Porter un coup au torse",
+                    "link": "/game/46"
+                },
+                "2": {
+                    "message": "Porter un coup à la tête",
+                    "link": "/game/47"
+                }
+            }
+        },
+        "46": {
+            "pnj": {
+                "name": "Godefroy de la Tonelle",
+                "skin": "/img/skins/chevalier.png"
+            },
+            "message": "“Hééé ca fait maleuuuuu”",
+            "answers": {
+                "1": {
+                    "message": "Mettre une balayette",
+                    "link": "/game/48"
+                },
+                "2": {
+                    "message": "Faire le malin devant la foule en délire",
+                    "link": "/game/49"
+                }
+            }
+        },
+        "47": {
+            "pnj": {
+                "name": "Godefroy de la Tonelle",
+                "skin": "/img/skins/chevalier.png"
+            },
+            "message": "*Le casque s’est enfoncer dans la tete de votre adversaire “Hhhmpff Hhhmpff”",
+            "answers": {
+                "1": {
+                    "message": "Porter le coup final",
+                    "link": "/game/50"
+                },
+                "2": {
+                    "message": "Lui accorder la vie si il abbandonne",
+                    "link": "/game/51"
+                }
+            }
+        },
+        "48": {
+            "pnj": {
+                "name": "Godefroy de la Tonelle",
+                "skin": "/img/skins/chevalier.png"
+            },
+            "message": "Godefroy est par terre, incapble de se relever tel une tortue sur le dos",
+            "answers": {
+                "1": {
+                    "message": "Porter le coup final",
+                    "link": "/game/50"
+                },
+                "2": {
+                    "message": "Lui accorder la vie si il abbandonne",
+                    "link": "/game/51"
+                }
+            }
+        },
+        "49": {
+            "message": "Pendant que vous vous déléctez des cris du public, Godefroy se relève et vous enfonce son épée en plein torse"
+        },
+        "50": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/img/skins/intendant.png"
+            },
+            "message": "Godefroy est mort, vous remportez le premier combat",
+            "answers": {
+                "1": {
+                    "message": "Combat suivant",
+                    "link": "/game/52"
+                }
+            }
+        },
+        "51": {
+            "pnj": {
+                "name": "Godefroy de la Tonelle",
+                "skin": "/img/skins/chevalier.png"
+            },
+            "message": "“Bien, bien, je suis vaincu AH! J’ai souillé mon armure”",
+            "answers": {
+                "1": {
+                    "message": "Combat suivant",
+                    "link": "/game/52"
+                }
+            }
+        },
+        "52": {
+            "pnj": {
+                "name": "Henri de Pavard",
+                "skin": "/img/skins/chevalier.png"
+            },
+            "message": "“Votre prochain adversaire se nomme Henri de Pavard, prenez garde à ses coups de pieds, ils sont redoutables !!”",
+            "answers": {
+                "1": {
+                    "message": "Engager le combat",
+                    "link": "/game/53"
+                }
+            }
+        },
+        "53": {
+            "pnj": {
+                "name": "Henri de Pavard",
+                "skin": "/img/skins/chevalier.png"
+            },
+            "message": "“Je suis agile comme le chat et précis comme le moustique”",
+            "answers": {
+                "1": {
+                    "message": "Lui demander d’où il sort ce proverbe débile",
+                    "link": "/game/54"
+                },
+                "2": {
+                    "message": "Le faire taire en lui lancant un couteau",
+                    "link": "/game/55"
+                }
+            }
+        },
+        "54": {
+            "message": "“Ahh, nous avons donc affaire à un comique!” *Balance un kick sorti de nul part* Vous ne savez plus comment vous vous appelez et etes déclaré vaincu..."
+        },
+        "55": {
+            "pnj": {
+                "name": "Henri de Pavard",
+                "skin": "/img/skins/chevalier.png"
+            },
+            "message": "“AHHH, MA JAMMMMBE, JE ME BATS COMMENT MAINTENANT ?”",
+            "answers": {
+                "1": {
+                    "message": "Ne rien dire et l’éxecuter",
+                    "link": "/game/56"
+                },
+                "2": {
+                    "message": "Lui promettre une belle jambe en bois si il la ferme",
+                    "link": "/game/57"
+                }
+            }
+        },
+        "56": {
+            "message": "Henri est mort, vous remportez le deuxième combat",
+            "answers": {
+                "1": {
+                    "message": "Combat suivant",
+                    "link": "/game/61"
+                }
+            }
+        },
+        "57": {
+            "pnj": {
+                "name": "Henri de Pavard",
+                "skin": "/img/skins/chevalier.png"
+            },
+            "message": "“Quel type de bois ?”",
+            "answers": {
+                "1": {
+                    "message": "Hausser les épaules suite à cette question débile et l’éxecuter",
+                    "link": "/game/56"
+                },
+                "2": {
+                    "message": "Je ne sais pas, du chêne ?",
+                    "link": "/game/58"
+                }
+            }
+        },
+        "58": {
+            "pnj": {
+                "name": "Henri de Pavard",
+                "skin": "/img/skins/chevalier.png"
+            },
+            "message": "“Je veux de l’ébene !”",
+            "answers": {
+                "1": {
+                    "message": "L'éxecuter",
+                    "link": "/game/56"
+                },
+                "2": {
+                    "message": "Accepter",
+                    "link": "/game/59"
+                }
+            }
+        },
+        "59": {
+            "pnj": {
+                "name": "Henri de Pavard",
+                "skin": "/img/skins/chevalier.png"
+            },
+            "message": "“Merci, vous etes un homme bon!”",
+            "answers": {
+                "1": {
+                    "message": "Quitter la zone avant qu’il ne vous demande de devenir votre ami",
+                    "link": "/game/60"
+                }
+            }
+        },
+        "60": {
+            "message": "Vous y etes presque, plus qu’un seul combat et vous deviendrez notre seigneur !",
+            "answers": {
+                "1": {
+                    "message": "Combat suivant",
+                    "link": "/game/61"
+                }
+            }
+        },
+        "61": {
+            "pnj": {
+                "name": "Chevalier du Binaire",
+                "skin": "/img/skins/chevalier.png"
+            },
+            "message": "Votre dernier adversaire est le chevalier du Binaire, il parait un peu simplet à première vue, mais ne le regardez pas dans les yeux, cela suffirait à vous faire exploser la caboche !",
+            "answers": {
+                "1": {
+                    "message": "Engager le combat",
+                    "link": "/game/62"
+                }
+            }
+        },
+        "62": {
+            "pnj": {
+                "name": "Chevalier du Binaire",
+                "skin": "/img/skins/chevalier.png"
+            },
+            "message": "01010011 01100001 01101100 01110101 01110100 00100000 11100000 00100000 01110100 01101111 01101001 00101100 00100000 01110011 01101001 00100000 01110100 01110101 00100000 01110011 01100001 01101001 01110011 00100000 01110000 01100001 01110010 01101100 01100101 01110010 00100000 01101101 01100001 00100000 01101100 01100001 01101110 01100111 01110101 01100101 00101100 00100000 01110100 01110101 00100000 01110000 01101111 01110101 01110010 01110010 01100001 00100000 01101101 01100101 00100000 01110110 01100001 01101001 01101110 01100011 01110010 01100101 00100000 01100101 01101110 00100000 01110101 01101110 00100000 01110011 01100101 01110101 01101100 00100000 01100011 01101111 01110101 01110000 00100000 00100001 00100000 01001101 01100001 01101001 01110011 00100000 01101010 01011100 00100111 01100101 01101110 00100000 01100100 01101111 01110101 01110100 01100101 00100000 00100001 01010011 01101001 00100000 01110100 01110101 00100000 01110110 01100101 01110101 01111000 00100000 01101101 01100101 00100000 01110110 01100001 01101001 01101110 01100011 01110010 01100101 00101100 00100000 01110100 01110101 00100000 01100100 01101111 01101001 01110011 00100000 01110110 01101001 01110011 01100101 01110010 00100000 01101101 01101111 01101110 00100000 11101001 01110000 01100001 01110101 01101100 01100101 00100000 01100111 01100001 01110101 01100011 01101000 01100101 ",
+            "answers": {
+                "1": {
+                    "message": "D'accord !",
+                    "link": "/game/63"
+                },
+                "2": {
+                    "message": "Hein !",
+                    "link": "/game/63"
+                }
+            }
+        },
+        "63": {
+            "pnj": {
+                "name": "Chevalier du Binaire",
+                "skin": "/img/skins/chevalier.png"
+            },
+            "message": "01010011 01101001 00100000 01110100 01110101 00100000 01110110 01100101 01110101 01111000 00100000 01101101 01100101 00100000 01110110 01100001 01101001 01101110 01100011 01110010 01100101 00101100 00100000 01110100 01110101 00100000 01100100 01101111 01101001 01110011 00100000 01110110 01101001 01110011 01100101 01110010 00100000 01101101 01101111 01101110 00100000 11101001 01110000 01100001 01110101 01101100 01100101 00100000 01100111 01100001 01110101 01100011 01101000 01100101 ",
+            "answers": {
+                "1": {
+                    "message": "Viser l'épaule gauche",
+                    "link": "/game/64"
+                }
+            }
+        },
+        "64": {
+            "pnj": {
+                "name": "Chevalier du Binaire",
+                "skin": "/img/skins/chevalier.png"
+            },
+            "message": "COMMENT ? VOUS PARLEZ MA LANGUE ? ",
+            "answers": {
+                "1": {
+                    "message": "J’ai fais un bachelor à Hetic",
+                    "link": "/game/65"
+                },
+                "2": {
+                    "message": "J’ai visé au pif !",
+                    "link": "/game/65"
+                }
+            }
+        },
+        "65": {
+            "pnj": {
+                "name": "Chevalier du Binaire",
+                "skin": "/img/skins/chevalier.png"
+            },
+            "message": "Je ne peux vivre après cet échec, prends ma vie comme tu prendra le trône !",
+            "answers": {
+                "1": {
+                    "message": "Accepter sa requête",
+                    "link": "/game/66"
+                }
+            }
+        },
+        "66": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/img/skins/intendant.png"
+            },
+            "message": "Votre quête touche à sa fin, vous êtes désormais le seigneur de ces terres. Je suis sous vos ordres à présent.",
+            "answers": {
+                "1": {
+                    "message": "Prendre le trône",
+                    "link": "/game/67"
+                }
+            }
+        },
+        "67": {
+            "message": "Félicitations ! Vous êtes désormais Seigneur."
+        }
+    }
+}

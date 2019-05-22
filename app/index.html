@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script type="text/javascript" src="data.json"></script>
+
     <title>Hero</title>
   </head>
   <body>
     <div id="root">
-      <router-view />
+      <router-view :key="$route.name + ($route.params.id || '')"></router-view>
+      
+      
     </div>
 
     <script src="./app.js"></script>

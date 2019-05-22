@@ -1,5 +1,15 @@
 @import 'reset';
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@font-face {
+  font-family: 'Vinque';
+  src: url('../font/vinque.ttf'); 
+  
+}
+@font-face {
+  font-family: 'Almendra';
+  src: url('../font/Almendra-Regular.ttf'); 
+  
+}
 
 $hetic-green: #0de595;
 
@@ -8,11 +18,14 @@ button,
 input,
 select,
 textarea {
-  font-family: 'Roboto';
+  font-family: 'Almendra';
 }
 
 .big-header {
-  background-color: $hetic-green;
+  background-image: url("../img/background.png");
+  filter: grayscale(30%);
+  background-size: cover;
+  background-position: center;
   height: 100vh;
 
   display: flex;
@@ -22,14 +35,68 @@ textarea {
   flex-direction: column;
 
   color: white;
+  
+}
+
+h1{
+  font-size: 22px;
+  text-align: center;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.character-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.character{
+  text-align: center;
+  height: 400px;
+  
+}
+
+@keyframes float {
+	0% {
+		
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-20px);
+	}
+	100% {
+		
+		transform: translatey(0px);
+	}
+}
+
+.skin{
+  width: 100px;
+  height: 220px;
+  margin-top: 40px;
+  transform: translatey(0px);
+  img { width: 100%; height: auto; }
+  animation: float 6s ease-in-out infinite;
+	
 }
 
 .button {
-  color: $hetic-green;
+  color: black;
   text-decoration: none;
   background: white;
   padding: 5px;
   border-radius: 5px;
   display: inline-block;
   border: none;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+
+
+.logo{
+  width: 30%;
 }
