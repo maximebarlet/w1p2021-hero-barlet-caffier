@@ -338,7 +338,7 @@
         "22": {
             "pnj": {
                 "name": "Garde",
-                "skin": "/img/skins/garde.png"
+                "skin": "/skins/garde.png"
             },
             "message": "Vous êtes désormais un garde néophyte",
             "answers": {
