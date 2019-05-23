@@ -12,6 +12,9 @@
   <body>
     <div id="root">
       <router-view :key="$route.name + ($route.params.id || '')"></router-view>
+      <audio autoplay loop>
+      <source src="assets/sound/main-sound.wav" />
+    </audio>
       
       
     </div>
