@@ -3,22 +3,50 @@
     <h1>{{ message }}</h1>
     <br>
     <router-link class="button" to="/home">Go to Home</router-link>
+    <div id="background-container">
+    <video autoplay muted id="myVideo">
+      <source src="../assets/images/winVid.mp4" type="video/mp4">
+    </video>
+    </div>
     <audio class="deathSound" autoplay volume="0.1" >
         <source src="../assets/sounds/win.wav" type="audio/wav">
     </audio>
+    
   </div>
+  
 </template>
 
 <style lang="scss" scoped>
 h1 {
     font-family: 'Cinzel';
     font-size: 100px;
-    margin-bottom: 20vh;
-    color: black;
+    margin-bottom: 50vh;
+    color: blue;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 10px;
 }
-.big-header {
-  background-color: gold;
+
+video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: -1;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
+
+.big-header{
+    background: none;
+}
+
+.button{
+    opacity: 0.5;
+}
+
 </style>
 <script>
 export default {
