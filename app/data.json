@@ -1,47 +1,30 @@
 {
-    "character": {
-        "1": {
+    "characters": [
+        {
             "name": "Claudin Le Meunier",
-            "speciality": "Aucune compétence",
-            "skin": "/skins/paysan.png"
+            "skin": "images/skins/paysan.png"
         },
-        "2": {
+        {
             "name": "Yvain Le Berger",
-            "speciality": "Aucune compétence",
-            "skin": "/skins/paysan2.png"
+            "skin": "/images/skins/paysan2.png"
         }
+    ],
+    "character": {
+        "image": "/images/chateau.jpg"
     },
-    "pnj": {
-        "1": {
-            "name": "Intendant",
-            "skin": "/img/skins/intendant.png"
-        },
-        "2": {
-            "name": "Roi",
-            "skin": "/img/skins/roi.png"
-        },
-        "3": {
-            "name": "Troll",
-            "skin": "/img/skins/goblin.png"
-        },
-        "4": {
-            "name": "Chevalier1",
-            "skin": "/img/skins/chevalier.png"
-        },
-        "5": {
-            "name": "Chevalier2",
-            "skin": "/img/skins/chevalier.png"
-        },
-        "6": {
-            "name": "Chevalier3",
-            "skin": "/img/skins/chevalier.png"
+    "home": {
+        "image": "/images/home-photo.jpg",
+        "music": {
+            "src": "/sounds/main-sound.wav",
+            "volume": 0.5,
+            "loop": true
         }
     },
     "game": {
         "1": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/skins/intendant.png"
+                "skin": "/images/skins/intendant.png"
             },
             "message": "Bienvenue à toi le gueux ! Tes guenilles sont sales et usées et ton odeur corporelle me rappelle la fosse commune ! Prêt à te hisser au sommet de l'échelle sociale ?",
             "answers": {
@@ -53,12 +36,17 @@
                     "message": "Pas encore...",
                     "link": "/game/1"
                 }
+            },
+            "music": {
+                "src": "/sounds/bells.wav",
+                "volume": 0.2,
+                "loop": true
             }
         },
         "2": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/skins/intendant.png"
+                "skin": "/images/skins/intendant.png"
             },
             "message": "Jour 1: Notre Seigneur n'est pas content, les réserves de blé sont de plus en plus faible ! File donc au champs !",
             "answers": {
@@ -75,7 +63,7 @@
         "3": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/skins/intendant.png"
+                "skin": "/images/skins/intendant.png"
             },
             "message": "Notre Seigneur est content ! Les réserves se remplissent plus vite grâce à ton travail !",
             "answers": {
@@ -92,7 +80,7 @@
         "4": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/skins/intendant.png"
+                "skin": "/images/skins/intendant.png"
             },
             "message": "Mes hommes m'ont assurés que tu a passé ta journée à te saouler comme un porc ! Tu sera châtié !",
             "answers": {
@@ -109,7 +97,7 @@
         "5": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/skins/intendant.png"
+                "skin": "/images/skins/intendant.png"
             },
             "message": "Prends donc ce quart de viande, tu l'as mérité ! ",
             "answers": {
@@ -126,7 +114,7 @@
         "6": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/skins/intendant.png"
+                "skin": "/images/skins/intendant.png"
             },
             "message": "Ton dévouement est fort appréciable, notre seigneur te convie à sa table !",
             "answers": {
@@ -139,7 +127,7 @@
         "7": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/skins/intendant.png"
+                "skin": "/images/skins/intendant.png"
             },
             "message": "20 coups de fouet pour toi, ivrogne !!",
             "answers": {
@@ -152,7 +140,7 @@
         "8": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/skins/intendant.png"
+                "skin": "/images/skins/intendant.png"
             },
             "message": "Le gueu s'enfuit dans la forêt. GARDES ! Laissez le filer, les loups se chargeront de lui !!!",
             "answers": {
@@ -165,7 +153,7 @@
         "9": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/skins/intendant.png"
+                "skin": "/images/skins/intendant.png"
             },
             "message": "Il est l'heure de dormir, nul ne sait ce que le lendemain lui réserve.",
             "answers": {
@@ -178,7 +166,7 @@
         "10": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/skins/intendant.png"
+                "skin": "/images/skins/intendant.png"
             },
             "message": "Il est l'heure de dormir, espérons que tu ne mourra pas avant demain !",
             "answers": {
@@ -191,7 +179,7 @@
         "11": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/skins/intendant.png"
+                "skin": "/images/skins/intendant.png"
             },
             "message": "Jour 2: Vous vous réveillez chez vous",
             "answers": {
@@ -208,7 +196,7 @@
         "12": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/skins/intendant.png"
+                "skin": "/images/skins/intendant.png"
             },
             "message": "Jour 2: Vous vous réveillez dans la forêt, vous apercevez au loin le château",
             "answers": {
@@ -221,7 +209,7 @@
         "13": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/skins/intendant.png"
+                "skin": "/images/skins/intendant.png"
             },
             "message": "Jour 2: Vous vous réveillez dans la forêt, vous n'avez aucune idée de l'endroit ou vous êtes",
             "answers": {
@@ -238,7 +226,7 @@
         "14": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/skins/intendant.png"
+                "skin": "/images/skins/intendant.png"
             },
             "message": "Bien le bonjour paysan, aujourd’hui, notre seigneur compte recruter de nouveaux gardes ",
             "answers": {
@@ -254,7 +242,7 @@
         "16": {
             "pnj": {
                 "name": "Seigneur",
-                "skin": "/skins/roi.png"
+                "skin": "/img/skins/roi.png"
             },
             "message": "Ainsi tu souhaite rejoindre ma garde ? Soite. Si tu bat ce troll des montagnes, tu deviendra garde néophyte !",
             "answers": {
@@ -271,7 +259,7 @@
         "17": {
             "pnj": {
                 "name": "Troll",
-                "skin": "/skins/goblin.png"
+                "skin": "/img/skins/goblin.png"
             },
             "message": "Agrouh !!! (Je vais t’étriper !)",
             "answers": {
@@ -288,7 +276,7 @@
         "18": {
             "pnj": {
                 "name": "Seigneur",
-                "skin": "/skins/roi.png"
+                "skin": "/img/skins/roi.png"
             },
             "message": "Je vois, tu n’as pas l’étoffe d’un garde ! Hors de ma vue poltron !",
             "answers": {
@@ -301,7 +289,7 @@
         "19": {
             "pnj": {
                 "name": "Troll",
-                "skin": "/skins/goblin.png"
+                "skin": "/img/skins/goblin.png"
             },
             "message": "Grahouuu !!! (Ahhh, j’y vois que dalle !)",
             "answers": {
@@ -318,7 +306,7 @@
         "20": {
             "pnj": {
                 "name": "Seigneur",
-                "skin": "/skins/roi.png"
+                "skin": "/img/skins/roi.png"
             },
             "message": "Bravo !! Je savais que tu n’en ferai qu’une bouchée ! Bienvenue dans la garde !",
             "answers": {
@@ -338,7 +326,7 @@
         "22": {
             "pnj": {
                 "name": "Garde",
-                "skin": "/skins/garde.png"
+                "skin": "/img/skins/garde.png"
             },
             "message": "Vous êtes désormais un garde néophyte",
             "answers": {
@@ -364,7 +352,7 @@
         "26": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/skins/intendant.png"
+                "skin": "/images/skins/intendant.png"
             },
             "message": "Jour 3: Bien le bonjour, désormais vous êtes garde, votre première mission est de débusquer un groupe de rebelles cachés dans la forêt, ramenez les morts ou vifs !!",
             "answers": {
@@ -504,7 +492,7 @@
         "40": {
             "pnj": {
                 "name": "Seigneur",
-                "skin": "/skins/roi.png"
+                "skin": "/img/skins/roi.png"
             },
             "message": "Le seigneur vous félicite pour le succès de cette mission, votre bravoure vous permet d’obtenir le titre de chevalier",
             "answers": {
@@ -530,7 +518,7 @@
         "42": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/skins/intendant.png"
+                "skin": "/images/skins/intendant.png"
             },
             "message": "Jour 4: Je vous apporte une terrible nouvelle, notre seigneur bien aimé s’est tué cette nuit après avoir voulu se raser avec son épée, le pauvre s’est tranché la gorge. Quoi qu’il en soit, en l’absence de descendance, la loi est claire: “Un tournoi entre les chevaliers de la seigneurie doit etre organisé afin de désigner le nouveau seigneur”. Vous sentez vous pret à relever le défi ?!",
             "answers": {
@@ -550,7 +538,7 @@
         "44": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/skins/intendant.png"
+                "skin": "/images/skins/intendant.png"
             },
             "message": "Je n’en attendais pas moi de votre part ! Votre premier adversaire n’est autre que Godefroy de la Tonelle, un chevalier expérimenté et assoifé de combat ! Tenez vous pret !  ",
             "answers": {
@@ -567,7 +555,7 @@
         "45": {
             "pnj": {
                 "name": "Godefroy de la Tonelle",
-                "skin": "/skins/chevalier.png"
+                "skin": "/img/skins/chevalier.png"
             },
             "message": "“Je suis Godefroy de la Tonelle, et c’est moi qui deviendra le nouveau Seigneur !”",
             "answers": {
@@ -584,7 +572,7 @@
         "46": {
             "pnj": {
                 "name": "Godefroy de la Tonelle",
-                "skin": "/skins/chevalier.png"
+                "skin": "/img/skins/chevalier.png"
             },
             "message": "“Hééé ca fait maleuuuuu”",
             "answers": {
@@ -601,7 +589,7 @@
         "47": {
             "pnj": {
                 "name": "Godefroy de la Tonelle",
-                "skin": "/skins/chevalier.png"
+                "skin": "/img/skins/chevalier.png"
             },
             "message": "*Le casque s’est enfoncer dans la tete de votre adversaire “Hhhmpff Hhhmpff”",
             "answers": {
@@ -618,7 +606,7 @@
         "48": {
             "pnj": {
                 "name": "Godefroy de la Tonelle",
-                "skin": "/skins/chevalier.png"
+                "skin": "/img/skins/chevalier.png"
             },
             "message": "Godefroy est par terre, incapble de se relever tel une tortue sur le dos",
             "answers": {
@@ -638,7 +626,7 @@
         "50": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/skins/intendant.png"
+                "skin": "/images/skins/intendant.png"
             },
             "message": "Godefroy est mort, vous remportez le premier combat",
             "answers": {
@@ -651,7 +639,7 @@
         "51": {
             "pnj": {
                 "name": "Godefroy de la Tonelle",
-                "skin": "/skins/chevalier.png"
+                "skin": "/img/skins/chevalier.png"
             },
             "message": "“Bien, bien, je suis vaincu AH! J’ai souillé mon armure”",
             "answers": {
@@ -664,7 +652,7 @@
         "52": {
             "pnj": {
                 "name": "Henri de Pavard",
-                "skin": "/skins/chevalier.png"
+                "skin": "/img/skins/chevalier.png"
             },
             "message": "“Votre prochain adversaire se nomme Henri de Pavard, prenez garde à ses coups de pieds, ils sont redoutables !!”",
             "answers": {
@@ -677,7 +665,7 @@
         "53": {
             "pnj": {
                 "name": "Henri de Pavard",
-                "skin": "/skins/chevalier.png"
+                "skin": "/img/skins/chevalier.png"
             },
             "message": "“Je suis agile comme le chat et précis comme le moustique”",
             "answers": {
@@ -697,7 +685,7 @@
         "55": {
             "pnj": {
                 "name": "Henri de Pavard",
-                "skin": "/skins/chevalier.png"
+                "skin": "/img/skins/chevalier.png"
             },
             "message": "“AHHH, MA JAMMMMBE, JE ME BATS COMMENT MAINTENANT ?”",
             "answers": {
@@ -723,7 +711,7 @@
         "57": {
             "pnj": {
                 "name": "Henri de Pavard",
-                "skin": "/skins/chevalier.png"
+                "skin": "/img/skins/chevalier.png"
             },
             "message": "“Quel type de bois ?”",
             "answers": {
@@ -740,7 +728,7 @@
         "58": {
             "pnj": {
                 "name": "Henri de Pavard",
-                "skin": "/skins/chevalier.png"
+                "skin": "/img/skins/chevalier.png"
             },
             "message": "“Je veux de l’ébene !”",
             "answers": {
@@ -757,7 +745,7 @@
         "59": {
             "pnj": {
                 "name": "Henri de Pavard",
-                "skin": "/skins/chevalier.png"
+                "skin": "/img/skins/chevalier.png"
             },
             "message": "“Merci, vous etes un homme bon!”",
             "answers": {
@@ -779,7 +767,7 @@
         "61": {
             "pnj": {
                 "name": "Chevalier du Binaire",
-                "skin": "/skins/chevalier.png"
+                "skin": "/img/skins/chevalier.png"
             },
             "message": "Votre dernier adversaire est le chevalier du Binaire, il parait un peu simplet à première vue, mais ne le regardez pas dans les yeux, cela suffirait à vous faire exploser la caboche !",
             "answers": {
@@ -792,7 +780,7 @@
         "62": {
             "pnj": {
                 "name": "Chevalier du Binaire",
-                "skin": "/skins/chevalier.png"
+                "skin": "/img/skins/chevalier.png"
             },
             "message": "01010011 01100001 01101100 01110101 01110100 00100000 11100000 00100000 01110100 01101111 01101001 00101100 00100000 01110011 01101001 00100000 01110100 01110101 00100000 01110011 01100001 01101001 01110011 00100000 01110000 01100001 01110010 01101100 01100101 01110010 00100000 01101101 01100001 00100000 01101100 01100001 01101110 01100111 01110101 01100101 00101100 00100000 01110100 01110101 00100000 01110000 01101111 01110101 01110010 01110010 01100001 00100000 01101101 01100101 00100000 01110110 01100001 01101001 01101110 01100011 01110010 01100101 00100000 01100101 01101110 00100000 01110101 01101110 00100000 01110011 01100101 01110101 01101100 00100000 01100011 01101111 01110101 01110000 00100000 00100001 00100000 01001101 01100001 01101001 01110011 00100000 01101010 01011100 00100111 01100101 01101110 00100000 01100100 01101111 01110101 01110100 01100101 00100000 00100001 01010011 01101001 00100000 01110100 01110101 00100000 01110110 01100101 01110101 01111000 00100000 01101101 01100101 00100000 01110110 01100001 01101001 01101110 01100011 01110010 01100101 00101100 00100000 01110100 01110101 00100000 01100100 01101111 01101001 01110011 00100000 01110110 01101001 01110011 01100101 01110010 00100000 01101101 01101111 01101110 00100000 11101001 01110000 01100001 01110101 01101100 01100101 00100000 01100111 01100001 01110101 01100011 01101000 01100101 ",
             "answers": {
@@ -809,7 +797,7 @@
         "63": {
             "pnj": {
                 "name": "Chevalier du Binaire",
-                "skin": "/skins/chevalier.png"
+                "skin": "/img/skins/chevalier.png"
             },
             "message": "01010011 01101001 00100000 01110100 01110101 00100000 01110110 01100101 01110101 01111000 00100000 01101101 01100101 00100000 01110110 01100001 01101001 01101110 01100011 01110010 01100101 00101100 00100000 01110100 01110101 00100000 01100100 01101111 01101001 01110011 00100000 01110110 01101001 01110011 01100101 01110010 00100000 01101101 01101111 01101110 00100000 11101001 01110000 01100001 01110101 01101100 01100101 00100000 01100111 01100001 01110101 01100011 01101000 01100101 ",
             "answers": {
@@ -822,7 +810,7 @@
         "64": {
             "pnj": {
                 "name": "Chevalier du Binaire",
-                "skin": "/skins/chevalier.png"
+                "skin": "/img/skins/chevalier.png"
             },
             "message": "COMMENT ? VOUS PARLEZ MA LANGUE ? ",
             "answers": {
@@ -839,7 +827,7 @@
         "65": {
             "pnj": {
                 "name": "Chevalier du Binaire",
-                "skin": "/skins/chevalier.png"
+                "skin": "/img/skins/chevalier.png"
             },
             "message": "Je ne peux vivre après cet échec, prends ma vie comme tu prendra le trône !",
             "answers": {
@@ -852,7 +840,7 @@
         "66": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/skins/intendant.png"
+                "skin": "/images/skins/intendant.png"
             },
             "message": "Votre quête touche à sa fin, vous êtes désormais le seigneur de ces terres. Je suis sous vos ordres à présent.",
             "answers": {

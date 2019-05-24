@@ -1,14 +1,36 @@
 @import 'reset';
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
-@font-face {
-  font-family: 'Vinque';
-  src: url('../font/vinque.ttf'); 
-  
-}
 @font-face {
   font-family: 'Almendra';
   src: url('../font/Almendra-Regular.ttf'); 
   
+}
+@keyframes slideLeave {
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideEnter {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translateX(-100vw);
+  }
+}
+@keyframes slodeLeave {
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slodeEnter {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translateX(-100vw);
+  }
 }
 
 $hetic-green: #0de595;
@@ -17,15 +39,34 @@ body,
 button,
 input,
 select,
-textarea {
-  font-family: 'Almendra';
+textarea,
+h1,
+h2,
+h3,
+p,
+.button {
+  
+  font-family: 'Almendra'; 
+}
+*{
+  cursor: url('../mouse-pointer/my-mouse-pointer.cur'), auto;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+.button {
+  margin: 10px 0;
+  background-color: #00000096;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  cursor: url('../mouse-pointer/my-mouse-pointer-hover.cur'), auto;
 }
 
 .big-header {
-  background-image: url("../img/chateau.jpg");
-  filter: grayscale(30%);
+  background-color: $hetic-green;
   background-size: cover;
-  background-position: center;
   height: 100vh;
 
   display: flex;
@@ -35,68 +76,88 @@ textarea {
   flex-direction: column;
 
   color: white;
-  
 }
 
-h1{
-  font-size: 22px;
-  text-align: center;
-  margin-right: 20px;
-  margin-left: 20px;
-}
-
-.character-box{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 400px;
-}
-
-.character{
-  text-align: center;
-  height: 400px;
-  
-}
-
-@keyframes float {
-	0% {
-		
-		transform: translatey(0px);
-	}
-	50% {
-		
-		transform: translatey(-20px);
-	}
-	100% {
-		
-		transform: translatey(0px);
-	}
-}
-
-.skin{
-  width: 100px;
-  height: 220px;
-  margin-top: 40px;
-  transform: translatey(0px);
-  img { width: 100%; height: auto; }
-  animation: float 6s ease-in-out infinite;
-	
-}
-
-.button {
+.settings {
+  position: absolute;
+  left: 10px;
   color: black;
-  text-decoration: none;
-  background: white;
-  padding: 5px;
-  border-radius: 5px;
-  display: inline-block;
-  border: none;
-  margin-bottom: 10px;
-  font-size: 20px;
+  cursor: url('../mouse-pointer/my-mouse-pointer-hover.cur'), auto;
+  ul {
+    display: none;
+  }
+}
+
+.home {
+  position: absolute;
+  right: 10px;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+.settings.is-open ul{
+  display: block;
 }
 
 
-
-.logo{
-  width: 30%;
+.slide-leave-active,
+.slide-enter-active {
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateX(100vw);
+    background: black;
+    z-index: 3;
+  }
 }
+
+.slide-leave-active {
+  animation: fake 1s;
+  &::after {
+    animation: slideLeave 1s;
+  }
+}
+
+.slide-enter-active {
+  animation: fake 2s;
+  &::after {
+    animation: slideEnter 1s ease 1s;
+  }
+}
+
+.slode-leave-active,
+.slode-enter-active {
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateX(100vw);
+    background: black;
+    z-index: 3;
+  }
+}
+
+.slode-leave-active {
+  animation: fake 1s;
+  &::after {
+    animation: slodeLeave 1s;
+  }
+}
+
+.slode-enter-active {
+  animation: fake 2s;
+  &::after {
+    animation: slodeEnter 1s ease 1s;
+  }
+}
+

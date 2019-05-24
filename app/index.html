@@ -1,24 +1,38 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <script type="text/javascript" src="data.json"></script>
-
-    <title>Hero</title>
+    <title>Throne Lord Edition</title>
   </head>
   <body>
-    <div id="root">
-      <router-view :key="$route.name + ($route.params.id || '')"></router-view>
-      <audio autoplay loop>
-      <source src="assets/sound/main-sound.wav" />
+    <audio class="clickSound" volume="0.7">
+        <source src="./assets/sounds/click.wav" type="audio/wav">
     </audio>
-      
-      
+    <div class="settings">
+      <p class="button">Son</p>
+      <ul>
+        <li><label for="sound">Musique</label> <input id="sound" checked type="checkbox"></li>
+        <li><label for="volume">Volume</label> <input id="volume" type="range" min="0" max="1" step="0.1"></li>
+      </ul>
+    </div>
+    <p class="button home" onclick="goHome()">Accueil</p>
+    <div id="root">
+        <transition name="slide">
+        <router-view :key="$route.name + ($route.params.id || '')"></router-view>
+          </transition>
+          
+
     </div>
 
     <script src="./app.js"></script>
+    <script>
+      goHome = () => {
+        window.location.href = '/home';
+      }
+    </script>
   </body>
 </html>
