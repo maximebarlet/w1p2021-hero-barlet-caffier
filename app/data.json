@@ -413,7 +413,7 @@
         "28": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/images/skins/intendant.png"
+                "skin": "/images/skins/paysan.png"
             },
             "message": "Sacrebleu !! La fillote du seigneur ! Si je reste ici, je meurs assurément",
             "answers": {
@@ -427,7 +427,7 @@
         "30": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/images/skins/intendant.png"
+                "skin": "/images/skins/garde.png"
             },
             "message": "Après plusieurs heure de traque, vous apercevez quelqu’un au loin",
             "answers": {
@@ -444,7 +444,7 @@
         "31": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/images/skins/intendant.png"
+                "skin": "/images/skins/brigand.png"
             },
             "message": "Vous sautez sur votre cible: il s’agit d’un rebelle",
             "answers": {
@@ -461,7 +461,7 @@
         "32": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/images/skins/intendant.png"
+                "skin": "/images/skins/garde.png"
             },
             "message": "Vos collègues vous surnomme à présent “L’idiot de la garde”, pour avoir tué le rebelle qui aurait pu vous servir",
             "answers": {
@@ -478,7 +478,7 @@
         "33": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/images/skins/intendant.png"
+                "skin": "/images/skins/garde.png"
             },
             "message": "Vous poursuivez votre quête",
             "answers": {
@@ -495,7 +495,7 @@
         "34": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/images/skins/intendant.png"
+                "skin": "/images/skins/garde.png"
             },
             "message": "Vos collègues pris de pitié, promettent de ne plus se moquer de vous, après tout, ce n’est que votre première mission !",
             "answers": {
@@ -509,7 +509,7 @@
         "36": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/images/skins/intendant.png"
+                "skin": "/images/skins/brigand.png"
             },
             "message": "Vous tombez par hasard sur le camp rebelle",
             "answers": {
@@ -527,7 +527,7 @@
         "38": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/images/skins/intendant.png"
+                "skin": "/images/skins/garde.png"
             },
             "message": "La nuit est tombée",
             "answers": {
@@ -544,7 +544,7 @@
         "39": {
             "pnj": {
                 "name": "Intendant",
-                "skin": "/images/skins/intendant.png"
+                "skin": "/images/skins/garde.png"
             },
             "message": "Les gardes sont hors d’état de nuire, vous faites prisonnier le reste du camp en les surprenant dans leur sommeil",
             "answers": {
@@ -622,7 +622,7 @@
         "45": {
             "pnj": {
                 "name": "Godefroy de la Tonelle",
-                "skin": "/images/skins/chevalier.png"
+                "skin": "/images/skins/firstFight.svg"
             },
             "message": "“Je suis Godefroy de la Tonelle, et c’est moi qui deviendra le nouveau Seigneur !”",
             "answers": {
@@ -639,7 +639,7 @@
         "46": {
             "pnj": {
                 "name": "Godefroy de la Tonelle",
-                "skin": "/images/skins/chevalier.png"
+                "skin": "/images/skins/firstFight.svg"
             },
             "message": "“Hééé ca fait maleuuuuu”",
             "answers": {
@@ -656,7 +656,7 @@
         "47": {
             "pnj": {
                 "name": "Godefroy de la Tonelle",
-                "skin": "/images/skins/chevalier.png"
+                "skin": "/images/skins/firstFight.svg"
             },
             "message": "*Le casque s’est enfoncer dans la tete de votre adversaire “Hhhmpff Hhhmpff”",
             "answers": {
@@ -673,7 +673,7 @@
         "48": {
             "pnj": {
                 "name": "Godefroy de la Tonelle",
-                "skin": "/images/skins/chevalier.png"
+                "skin": "/images/skins/firstFight.svg"
             },
             "message": "Godefroy est par terre, incapble de se relever tel une tortue sur le dos",
             "answers": {
@@ -704,7 +704,7 @@
         "51": {
             "pnj": {
                 "name": "Godefroy de la Tonelle",
-                "skin": "/images/skins/chevalier.png"
+                "skin": "/images/skins/firstFight.svg"
             },
             "message": "“Bien, bien, je suis vaincu AH! J’ai souillé mon armure”",
             "answers": {
@@ -717,7 +717,7 @@
         "52": {
             "pnj": {
                 "name": "Henri de Pavard",
-                "skin": "/images/skins/chevalier.png"
+                "skin": "/images/skins/secondFight.svg"
             },
             "message": "“Votre prochain adversaire se nomme Henri de Pavard, prenez garde à ses coups de pieds, ils sont redoutables !!”",
             "answers": {
@@ -730,7 +730,7 @@
         "53": {
             "pnj": {
                 "name": "Henri de Pavard",
-                "skin": "/images/skins/chevalier.png"
+                "skin": "/images/skins/secondFight.svg"
             },
             "message": "“Je suis agile comme le chat et précis comme le moustique”",
             "answers": {
@@ -748,7 +748,7 @@
         "55": {
             "pnj": {
                 "name": "Henri de Pavard",
-                "skin": "/images/skins/chevalier.png"
+                "skin": "/images/skins/secondFight.svg"
             },
             "message": "“AHHH, MA JAMMMMBE, JE ME BATS COMMENT MAINTENANT ?”",
             "answers": {
@@ -778,7 +778,7 @@
         "57": {
             "pnj": {
                 "name": "Henri de Pavard",
-                "skin": "/images/skins/chevalier.png"
+                "skin": "/images/skins/secondFight.svg"
             },
             "message": "“Quel type de bois ?”",
             "answers": {
@@ -795,7 +795,7 @@
         "58": {
             "pnj": {
                 "name": "Henri de Pavard",
-                "skin": "/images/skins/chevalier.png"
+                "skin": "/images/skins/secondFight.svg"
             },
             "message": "“Je veux de l’ébene !”",
             "answers": {
@@ -812,7 +812,7 @@
         "59": {
             "pnj": {
                 "name": "Henri de Pavard",
-                "skin": "/images/skins/chevalier.png"
+                "skin": "/images/skins/secondFight.svg"
             },
             "message": "“Merci, vous etes un homme bon!”",
             "answers": {
@@ -838,7 +838,7 @@
         "61": {
             "pnj": {
                 "name": "Chevalier du Binaire",
-                "skin": "/images/skins/chevalier.png"
+                "skin": "/images/skins/thirdFight.svg"
             },
             "message": "Votre dernier adversaire est le chevalier du Binaire, il parait un peu simplet à première vue, mais ne le regardez pas dans les yeux, cela suffirait à vous faire exploser la caboche !",
             "answers": {
@@ -851,7 +851,7 @@
         "62": {
             "pnj": {
                 "name": "Chevalier du Binaire",
-                "skin": "/images/skins/chevalier.png"
+                "skin": "/images/skins/thirdFight.svg"
             },
             "message": "01010011 01100001 01101100 01110101 01110100 00100000 11100000 00100000 01110100 01101111 01101001 00101100 00100000 01110011 01101001 00100000 01110100 01110101 00100000 01110011 01100001 01101001 01110011 00100000 01110000 01100001 01110010 01101100 01100101 01110010 00100000 01101101 01100001 00100000 01101100 01100001 01101110 01100111 01110101 01100101 00101100 00100000 01110100 01110101 00100000 01110000 01101111 01110101 01110010 01110010 01100001 00100000 01101101 01100101 00100000 01110110 01100001 01101001 01101110 01100011 01110010 01100101 00100000 01100101 01101110 00100000 01110101 01101110 00100000 01110011 01100101 01110101 01101100 00100000 01100011 01101111 01110101 01110000 00100000 00100001 00100000 01001101 01100001 01101001 01110011 00100000 01101010 01011100 00100111 01100101 01101110 00100000 01100100 01101111 01110101 01110100 01100101 00100000 00100001 01010011 01101001 00100000 01110100 01110101 00100000 01110110 01100101 01110101 01111000 00100000 01101101 01100101 00100000 01110110 01100001 01101001 01101110 01100011 01110010 01100101 00101100 00100000 01110100 01110101 00100000 01100100 01101111 01101001 01110011 00100000 01110110 01101001 01110011 01100101 01110010 00100000 01101101 01101111 01101110 00100000 11101001 01110000 01100001 01110101 01101100 01100101 00100000 01100111 01100001 01110101 01100011 01101000 01100101 ",
             "answers": {
@@ -868,7 +868,7 @@
         "63": {
             "pnj": {
                 "name": "Chevalier du Binaire",
-                "skin": "/images/skins/chevalier.png"
+                "skin": "/images/skins/thirdFight.svg"
             },
             "message": "01010011 01101001 00100000 01110100 01110101 00100000 01110110 01100101 01110101 01111000 00100000 01101101 01100101 00100000 01110110 01100001 01101001 01101110 01100011 01110010 01100101 00101100 00100000 01110100 01110101 00100000 01100100 01101111 01101001 01110011 00100000 01110110 01101001 01110011 01100101 01110010 00100000 01101101 01101111 01101110 00100000 11101001 01110000 01100001 01110101 01101100 01100101 00100000 01100111 01100001 01110101 01100011 01101000 01100101 ",
             "answers": {
@@ -881,7 +881,7 @@
         "64": {
             "pnj": {
                 "name": "Chevalier du Binaire",
-                "skin": "/images/skins/chevalier.png"
+                "skin": "/images/skins/thirdFight.svg"
             },
             "message": "COMMENT ? VOUS PARLEZ MA LANGUE ? ",
             "answers": {
@@ -898,7 +898,7 @@
         "65": {
             "pnj": {
                 "name": "Chevalier du Binaire",
-                "skin": "/images/skins/chevalier.png"
+                "skin": "/images/skins/thirdFight.svg"
             },
             "message": "Je ne peux vivre après cet échec, prends ma vie comme tu prendra le trône !",
             "answers": {
