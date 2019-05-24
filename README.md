@@ -1,11 +1,11 @@
 # Le site dont vous êtes le héros
 
-URL du site : http://votre-url-ici.com
+URL du site : https://throne-lord-edition.netlify.com
 
 ### Groupe
 
-- Prénom & Nom
-- Prénom & Nom
+- Maxime BARLET
+- Virgil CAFFIER
 
 ### Grille d'auto-évaluation
 
