@@ -15,6 +15,7 @@
   background-image: url("../assets/images/chateau.jpg");
   background-position: center;
   background-size: cover;
+
 }
 
 .name {

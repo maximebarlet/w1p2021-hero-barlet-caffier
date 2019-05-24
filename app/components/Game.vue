@@ -33,12 +33,7 @@ h1 {
   background-position: center;
   background-size: cover;
 }
-.sign {
-  width: 100vw;
-  position: absolute;
-  bottom: 0;
-  opacity: .9;
-}
+
 .question {
   position: absolute;
   bottom: 0;
