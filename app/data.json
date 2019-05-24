@@ -54,6 +54,9 @@
         },
         "54": {
             "message": "“Ahh, nous avons donc affaire à un comique!” *Balance un kick sorti de nul part* Vous ne savez plus comment vous vous appelez et etes déclaré vaincu..."
+        },
+        "68": {
+            "message": "Vous mourrez sous pile de 1 et de 0 ..."
         }
     },
 
@@ -875,7 +878,16 @@
                 "1": {
                     "message": "Viser l'épaule gauche",
                     "link": "/game/64"
+                },
+                "2": {
+                    "message": "Viser l'épaule droite",
+                    "link": "/lose/68"
+                },
+                "3": {
+                    "message": "Viser la tête",
+                    "link": "/lose/68"
                 }
+            
             }
         },
         "64": {

@@ -17,7 +17,9 @@ h1 {
     color: white;
 }
 .big-header {
-  background-color: black;
+  background-image: url("../assets/images/dead.jpg");
+  background-position: center;
+  background-size: cover;
 }
 </style>
 
