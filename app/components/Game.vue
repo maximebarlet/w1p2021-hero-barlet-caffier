@@ -51,7 +51,7 @@ h1 {
   background-image: url("../assets/images/parch.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 100%;
   padding-top: 20px;
 
   .answers {
@@ -101,21 +101,7 @@ export default {
     };
   },
   methods: {
-    setStep() {
-      step.set(this.$route.params.id)
-      this.phase = this.$route.params.id
-    },
-    getQuestion() {
-      let rawJson = data.game[this.$route.params.id]
-      let characterName = localStorage.getItem('character')
-      
-      rawJson.forEach(question => {
-        if(question.character === characterName) {
-          this.question = question
-        } 
-      });
-      
-    },
+    
     themeHandle() {
       let toDelete = document.querySelector('audio.active');
       toDelete ? document.body.removeChild(toDelete) : ''

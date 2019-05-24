@@ -20,6 +20,49 @@
             "loop": true
         }
     },
+
+    "lose":{
+        "15": {
+            "message": "Vous vous faites attraper, vous resterez cloué au piloris jusqu’a la mort ..."
+        },
+        "21": {
+            "message": "Même si le troll est aveugle, votre odeur vous a trahi, vous mourrez écrasé ..."
+        },
+        "23": {
+            "message": "Vous vous faites égorger par un malfrat en sortant du chateau, vous mourrez"
+        },
+        "24": {
+            "message": "C’est inneficace, le troll vous saute dessus et vous mourrez ecrasé"
+        },
+        "25": {
+            "message": "Vous tombez sur une horde de loup, vous terminez en festin pour la meute"
+        },
+        "29": {
+            "message": "Intendant: alors comme ca on fricote avec la fillote de notre seigneur, tu mourra écorché sur la place du marché !"
+        },
+        "35": {
+            "message": "Vous rentrez de mission bredouille, le seigneur est furieux, vous passerez le reste de votre existence dans une gôle"
+        },
+        "37": {
+            "message": "Vous foncez sur le camp, les rebelles, qui étaient sur le qui vive, déciment votre escouade sans difficultée"
+        },
+        "43": {
+            "message": "Vous galopez dans la foret en pleine nuit. Votre visage d’ahuri rencontre malencontreusement une solide branche, vous mourrez "
+        },
+        "49": {
+            "message": "Pendant que vous vous déléctez des cris du public, Godefroy se relève et vous enfonce son épée en plein torse"
+        },
+        "54": {
+            "message": "“Ahh, nous avons donc affaire à un comique!” *Balance un kick sorti de nul part* Vous ne savez plus comment vous vous appelez et etes déclaré vaincu..."
+        }
+    },
+
+    "win":{
+        "67": {
+            "message": "Félicitations ! Vous êtes désormais Seigneur."
+        }
+    },
+
     "game": {
         "1": {
             "pnj": {
@@ -189,7 +232,7 @@
                 },
                 "2": {
                     "message": "Rester au lit",
-                    "link": "/game/15"
+                    "link": "/lose/15"
                 }
             }
         },
@@ -202,7 +245,7 @@
             "answers": {
                 "1": {
                     "message": "Rejoindre la maison",
-                    "link": "/game/15"
+                    "link": "/lose/15"
                 }
             }
         },
@@ -215,11 +258,11 @@
             "answers": {
                 "1": {
                     "message": "Prendre à droite",
-                    "link": "/game/25"
+                    "link": "/lose/25"
                 },
                 "2": {
                     "message": "Prendre à gauche",
-                    "link": "/game/25"
+                    "link": "/lose/25"
                 }
             }
         },
@@ -236,13 +279,11 @@
                 }
             }
         },
-        "15": {
-            "message": "Vous vous faites attraper, vous resterez cloué au piloris jusqu’a la mort ..."
-        },
+        
         "16": {
             "pnj": {
                 "name": "Seigneur",
-                "skin": "/img/skins/roi.png"
+                "skin": "/images/skins/roi.png"
             },
             "message": "Ainsi tu souhaite rejoindre ma garde ? Soite. Si tu bat ce troll des montagnes, tu deviendra garde néophyte !",
             "answers": {
@@ -259,7 +300,7 @@
         "17": {
             "pnj": {
                 "name": "Troll",
-                "skin": "/img/skins/goblin.png"
+                "skin": "/images/skins/goblin.png"
             },
             "message": "Agrouh !!! (Je vais t’étriper !)",
             "answers": {
@@ -269,27 +310,27 @@
                 },
                 "2": {
                     "message": "Viser les jambes",
-                    "link": "/game/24"
+                    "link": "/lose/24"
                 }
             }
         },
         "18": {
             "pnj": {
                 "name": "Seigneur",
-                "skin": "/img/skins/roi.png"
+                "skin": "/images/skins/roi.png"
             },
             "message": "Je vois, tu n’as pas l’étoffe d’un garde ! Hors de ma vue poltron !",
             "answers": {
                 "1": {
                     "message": "Partir",
-                    "link": "/game/23"
+                    "link": "/lose/23"
                 }
             }
         },
         "19": {
             "pnj": {
                 "name": "Troll",
-                "skin": "/img/skins/goblin.png"
+                "skin": "/images/skins/goblin.png"
             },
             "message": "Grahouuu !!! (Ahhh, j’y vois que dalle !)",
             "answers": {
@@ -299,14 +340,14 @@
                 },
                 "2": {
                     "message": "Se sentir coupable",
-                    "link": "/game/21"
+                    "link": "/lose/21"
                 }
             }
         },
         "20": {
             "pnj": {
                 "name": "Seigneur",
-                "skin": "/img/skins/roi.png"
+                "skin": "/images/skins/roi.png"
             },
             "message": "Bravo !! Je savais que tu n’en ferai qu’une bouchée ! Bienvenue dans la garde !",
             "answers": {
@@ -320,13 +361,11 @@
                 }
             }
         },
-        "21": {
-            "message": "Même si le troll est aveugle, votre odeur vous a trahi, vous mourrez écrasé ..."
-        },
+        
         "22": {
             "pnj": {
                 "name": "Garde",
-                "skin": "/img/skins/garde.png"
+                "skin": "/images/skins/garde.png"
             },
             "message": "Vous êtes désormais un garde néophyte",
             "answers": {
@@ -340,15 +379,7 @@
                 }
             }
         },
-        "23": {
-            "message": "Vous vous faites égorger par un malfrat en sortant du chateau, vous mourrez"
-        },
-        "24": {
-            "message": "C’est inneficace, le troll vous saute dessus et vous mourrez ecrasé"
-        },
-        "25": {
-            "message": "Vous tombez sur une horde de loup, vous terminez en festin pour la meute"
-        },
+        
         "26": {
             "pnj": {
                 "name": "Intendant",
@@ -363,6 +394,10 @@
             }
         },
         "27": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/images/skins/intendant.png"
+            },
             "message": "Jour 3: vous vous réveillez dans un lit qui n’est pas le vôtre",
             "answers": {
                 "1": {
@@ -376,18 +411,24 @@
             }
         },
         "28": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/images/skins/intendant.png"
+            },
             "message": "Sacrebleu !! La fillote du seigneur ! Si je reste ici, je meurs assurément",
             "answers": {
                 "1": {
                     "message": "Sortir de la chambre, par la porte",
-                    "link": "/game/29"
+                    "link": "/lose/29"
                 }
             }
         },
-        "29": {
-            "message": "Intendant: alors comme ca on fricote avec la fillote de notre seigneur, tu mourra écorché sur la place du marché !"
-        },
+        
         "30": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/images/skins/intendant.png"
+            },
             "message": "Après plusieurs heure de traque, vous apercevez quelqu’un au loin",
             "answers": {
                 "1": {
@@ -396,11 +437,15 @@
                 },
                 "2": {
                     "message": "Faire semblant de ne pas l'avoir vu",
-                    "link": "/game/35"
+                    "link": "/lose/35"
                 }
             }
         },
         "31": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/images/skins/intendant.png"
+            },
             "message": "Vous sautez sur votre cible: il s’agit d’un rebelle",
             "answers": {
                 "1": {
@@ -414,6 +459,10 @@
             }
         },
         "32": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/images/skins/intendant.png"
+            },
             "message": "Vos collègues vous surnomme à présent “L’idiot de la garde”, pour avoir tué le rebelle qui aurait pu vous servir",
             "answers": {
                 "1": {
@@ -427,6 +476,10 @@
             }
         },
         "33": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/images/skins/intendant.png"
+            },
             "message": "Vous poursuivez votre quête",
             "answers": {
                 "1": {
@@ -435,11 +488,15 @@
                 },
                 "2": {
                     "message": "Prendre à droite",
-                    "link": "/game/35"
+                    "link": "/lose/35"
                 }
             }
         },
         "34": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/images/skins/intendant.png"
+            },
             "message": "Vos collègues pris de pitié, promettent de ne plus se moquer de vous, après tout, ce n’est que votre première mission !",
             "answers": {
                 "1": {
@@ -448,15 +505,17 @@
                 }
             }
         },
-        "35": {
-            "message": "Vous rentrez de mission bredouille, le seigneur est furieux, vous passerez le reste de votre existence dans une gôle"
-        },
+        
         "36": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/images/skins/intendant.png"
+            },
             "message": "Vous tombez par hasard sur le camp rebelle",
             "answers": {
                 "1": {
                     "message": "Lancer l'assault",
-                    "link": "/game/37"
+                    "link": "/lose/37"
                 },
                 "2": {
                     "message": "Attendre la nuit",
@@ -464,15 +523,17 @@
                 }
             }
         },
-        "37": {
-            "message": "Vous foncez sur le camp, les rebelles, qui étaient sur le qui vive, déciment votre escouade sans difficultée"
-        },
+        
         "38": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/images/skins/intendant.png"
+            },
             "message": "La nuit est tombée",
             "answers": {
                 "1": {
                     "message": "Lancer l'assault",
-                    "link": "/game/37"
+                    "link": "/lose/37"
                 },
                 "2": {
                     "message": "Vous égorgez stratégiquement les gardes postés autour du camp ",
@@ -481,6 +542,10 @@
             }
         },
         "39": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/images/skins/intendant.png"
+            },
             "message": "Les gardes sont hors d’état de nuire, vous faites prisonnier le reste du camp en les surprenant dans leur sommeil",
             "answers": {
                 "1": {
@@ -492,7 +557,7 @@
         "40": {
             "pnj": {
                 "name": "Seigneur",
-                "skin": "/img/skins/roi.png"
+                "skin": "/images/skins/roi.png"
             },
             "message": "Le seigneur vous félicite pour le succès de cette mission, votre bravoure vous permet d’obtenir le titre de chevalier",
             "answers": {
@@ -503,6 +568,10 @@
             }
         },
         "41": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/images/skins/chevalier.png"
+            },
             "message": "Vous êtes désormais un chevalier",
             "answers": {
                 "1": {
@@ -511,7 +580,7 @@
                 },
                 "2": {
                     "message": "Aller faire un tour sur votre nouvelle monture",
-                    "link": "/game/43"
+                    "link": "/lose/43"
                 }
             }
         },
@@ -532,9 +601,7 @@
                 }
             }
         },
-        "43": {
-            "message": "Vous galopez dans la foret en pleine nuit. Votre visage d’ahuri rencontre malencontreusement une solide branche, vous mourrez "
-        },
+        
         "44": {
             "pnj": {
                 "name": "Intendant",
@@ -555,7 +622,7 @@
         "45": {
             "pnj": {
                 "name": "Godefroy de la Tonelle",
-                "skin": "/img/skins/chevalier.png"
+                "skin": "/images/skins/chevalier.png"
             },
             "message": "“Je suis Godefroy de la Tonelle, et c’est moi qui deviendra le nouveau Seigneur !”",
             "answers": {
@@ -572,7 +639,7 @@
         "46": {
             "pnj": {
                 "name": "Godefroy de la Tonelle",
-                "skin": "/img/skins/chevalier.png"
+                "skin": "/images/skins/chevalier.png"
             },
             "message": "“Hééé ca fait maleuuuuu”",
             "answers": {
@@ -582,14 +649,14 @@
                 },
                 "2": {
                     "message": "Faire le malin devant la foule en délire",
-                    "link": "/game/49"
+                    "link": "/lose/49"
                 }
             }
         },
         "47": {
             "pnj": {
                 "name": "Godefroy de la Tonelle",
-                "skin": "/img/skins/chevalier.png"
+                "skin": "/images/skins/chevalier.png"
             },
             "message": "*Le casque s’est enfoncer dans la tete de votre adversaire “Hhhmpff Hhhmpff”",
             "answers": {
@@ -606,7 +673,7 @@
         "48": {
             "pnj": {
                 "name": "Godefroy de la Tonelle",
-                "skin": "/img/skins/chevalier.png"
+                "skin": "/images/skins/chevalier.png"
             },
             "message": "Godefroy est par terre, incapble de se relever tel une tortue sur le dos",
             "answers": {
@@ -620,9 +687,7 @@
                 }
             }
         },
-        "49": {
-            "message": "Pendant que vous vous déléctez des cris du public, Godefroy se relève et vous enfonce son épée en plein torse"
-        },
+        
         "50": {
             "pnj": {
                 "name": "Intendant",
@@ -639,7 +704,7 @@
         "51": {
             "pnj": {
                 "name": "Godefroy de la Tonelle",
-                "skin": "/img/skins/chevalier.png"
+                "skin": "/images/skins/chevalier.png"
             },
             "message": "“Bien, bien, je suis vaincu AH! J’ai souillé mon armure”",
             "answers": {
@@ -652,7 +717,7 @@
         "52": {
             "pnj": {
                 "name": "Henri de Pavard",
-                "skin": "/img/skins/chevalier.png"
+                "skin": "/images/skins/chevalier.png"
             },
             "message": "“Votre prochain adversaire se nomme Henri de Pavard, prenez garde à ses coups de pieds, ils sont redoutables !!”",
             "answers": {
@@ -665,13 +730,13 @@
         "53": {
             "pnj": {
                 "name": "Henri de Pavard",
-                "skin": "/img/skins/chevalier.png"
+                "skin": "/images/skins/chevalier.png"
             },
             "message": "“Je suis agile comme le chat et précis comme le moustique”",
             "answers": {
                 "1": {
                     "message": "Lui demander d’où il sort ce proverbe débile",
-                    "link": "/game/54"
+                    "link": "/lose/54"
                 },
                 "2": {
                     "message": "Le faire taire en lui lancant un couteau",
@@ -679,13 +744,11 @@
                 }
             }
         },
-        "54": {
-            "message": "“Ahh, nous avons donc affaire à un comique!” *Balance un kick sorti de nul part* Vous ne savez plus comment vous vous appelez et etes déclaré vaincu..."
-        },
+        
         "55": {
             "pnj": {
                 "name": "Henri de Pavard",
-                "skin": "/img/skins/chevalier.png"
+                "skin": "/images/skins/chevalier.png"
             },
             "message": "“AHHH, MA JAMMMMBE, JE ME BATS COMMENT MAINTENANT ?”",
             "answers": {
@@ -700,6 +763,10 @@
             }
         },
         "56": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/images/skins/intendant.png"
+            },
             "message": "Henri est mort, vous remportez le deuxième combat",
             "answers": {
                 "1": {
@@ -711,7 +778,7 @@
         "57": {
             "pnj": {
                 "name": "Henri de Pavard",
-                "skin": "/img/skins/chevalier.png"
+                "skin": "/images/skins/chevalier.png"
             },
             "message": "“Quel type de bois ?”",
             "answers": {
@@ -728,7 +795,7 @@
         "58": {
             "pnj": {
                 "name": "Henri de Pavard",
-                "skin": "/img/skins/chevalier.png"
+                "skin": "/images/skins/chevalier.png"
             },
             "message": "“Je veux de l’ébene !”",
             "answers": {
@@ -745,7 +812,7 @@
         "59": {
             "pnj": {
                 "name": "Henri de Pavard",
-                "skin": "/img/skins/chevalier.png"
+                "skin": "/images/skins/chevalier.png"
             },
             "message": "“Merci, vous etes un homme bon!”",
             "answers": {
@@ -756,6 +823,10 @@
             }
         },
         "60": {
+            "pnj": {
+                "name": "Intendant",
+                "skin": "/images/skins/intendant.png"
+            },
             "message": "Vous y etes presque, plus qu’un seul combat et vous deviendrez notre seigneur !",
             "answers": {
                 "1": {
@@ -767,7 +838,7 @@
         "61": {
             "pnj": {
                 "name": "Chevalier du Binaire",
-                "skin": "/img/skins/chevalier.png"
+                "skin": "/images/skins/chevalier.png"
             },
             "message": "Votre dernier adversaire est le chevalier du Binaire, il parait un peu simplet à première vue, mais ne le regardez pas dans les yeux, cela suffirait à vous faire exploser la caboche !",
             "answers": {
@@ -780,7 +851,7 @@
         "62": {
             "pnj": {
                 "name": "Chevalier du Binaire",
-                "skin": "/img/skins/chevalier.png"
+                "skin": "/images/skins/chevalier.png"
             },
             "message": "01010011 01100001 01101100 01110101 01110100 00100000 11100000 00100000 01110100 01101111 01101001 00101100 00100000 01110011 01101001 00100000 01110100 01110101 00100000 01110011 01100001 01101001 01110011 00100000 01110000 01100001 01110010 01101100 01100101 01110010 00100000 01101101 01100001 00100000 01101100 01100001 01101110 01100111 01110101 01100101 00101100 00100000 01110100 01110101 00100000 01110000 01101111 01110101 01110010 01110010 01100001 00100000 01101101 01100101 00100000 01110110 01100001 01101001 01101110 01100011 01110010 01100101 00100000 01100101 01101110 00100000 01110101 01101110 00100000 01110011 01100101 01110101 01101100 00100000 01100011 01101111 01110101 01110000 00100000 00100001 00100000 01001101 01100001 01101001 01110011 00100000 01101010 01011100 00100111 01100101 01101110 00100000 01100100 01101111 01110101 01110100 01100101 00100000 00100001 01010011 01101001 00100000 01110100 01110101 00100000 01110110 01100101 01110101 01111000 00100000 01101101 01100101 00100000 01110110 01100001 01101001 01101110 01100011 01110010 01100101 00101100 00100000 01110100 01110101 00100000 01100100 01101111 01101001 01110011 00100000 01110110 01101001 01110011 01100101 01110010 00100000 01101101 01101111 01101110 00100000 11101001 01110000 01100001 01110101 01101100 01100101 00100000 01100111 01100001 01110101 01100011 01101000 01100101 ",
             "answers": {
@@ -797,7 +868,7 @@
         "63": {
             "pnj": {
                 "name": "Chevalier du Binaire",
-                "skin": "/img/skins/chevalier.png"
+                "skin": "/images/skins/chevalier.png"
             },
             "message": "01010011 01101001 00100000 01110100 01110101 00100000 01110110 01100101 01110101 01111000 00100000 01101101 01100101 00100000 01110110 01100001 01101001 01101110 01100011 01110010 01100101 00101100 00100000 01110100 01110101 00100000 01100100 01101111 01101001 01110011 00100000 01110110 01101001 01110011 01100101 01110010 00100000 01101101 01101111 01101110 00100000 11101001 01110000 01100001 01110101 01101100 01100101 00100000 01100111 01100001 01110101 01100011 01101000 01100101 ",
             "answers": {
@@ -810,7 +881,7 @@
         "64": {
             "pnj": {
                 "name": "Chevalier du Binaire",
-                "skin": "/img/skins/chevalier.png"
+                "skin": "/images/skins/chevalier.png"
             },
             "message": "COMMENT ? VOUS PARLEZ MA LANGUE ? ",
             "answers": {
@@ -827,7 +898,7 @@
         "65": {
             "pnj": {
                 "name": "Chevalier du Binaire",
-                "skin": "/img/skins/chevalier.png"
+                "skin": "/images/skins/chevalier.png"
             },
             "message": "Je ne peux vivre après cet échec, prends ma vie comme tu prendra le trône !",
             "answers": {
@@ -846,12 +917,10 @@
             "answers": {
                 "1": {
                     "message": "Prendre le trône",
-                    "link": "/game/67"
+                    "link": "/win"
                 }
             }
-        },
-        "67": {
-            "message": "Félicitations ! Vous êtes désormais Seigneur."
         }
+        
     }
 }

@@ -29,12 +29,12 @@ const router = new Router({
       component: Game,
     },
     {
-      path: '/win',
+      path: '/win/:id',
       name: 'win',
       component: Win,
     },
     {
-      path: '/lose',
+      path: '/lose/:id',
       name: 'lose',
       component: Lose,
     },
