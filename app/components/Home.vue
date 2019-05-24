@@ -1,7 +1,9 @@
 <template>
     
   <div class="big-header">
-    <img class="name" src="../assets/images/logo.png">
+    <video autoplay muted id="myVideo">
+      <source src="../assets/images/intro.mp4" type="video/mp4">
+    </video>
     <br>
     <router-link class="button" to="/characters">Choix du personnage</router-link>
     <router-link class="button" :to="'/game/' + getStep()">Reprendre la partie en cours</router-link>
@@ -27,12 +29,12 @@
   transition: opacity 1.7s;
 }
 #myVideo {
-  position: fixed;
-  z-index: -1;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
+  width: 800px;
+}
+
+.button{
+  background-color: green;
+  color: white;
 }
 
 
