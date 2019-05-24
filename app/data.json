@@ -23,40 +23,40 @@
 
     "lose":{
         "15": {
-            "message": "Vous vous faites attraper, vous resterez cloué au piloris jusqu’a la mort ..."
+            "message": "Vous vous faites attraper, vous resterez cloué au piloris jusqu’à la mort ..."
         },
         "21": {
-            "message": "Même si le troll est aveugle, votre odeur vous a trahi, vous mourrez écrasé ..."
+            "message": "Même si le troll est aveugle, votre odeur vous a trahie, vous mourrez écrasé ..."
         },
         "23": {
             "message": "Vous vous faites égorger par un malfrat en sortant du chateau, vous mourrez"
         },
         "24": {
-            "message": "C’est inneficace, le troll vous saute dessus et vous mourrez ecrasé"
+            "message": "C’est inefficace, le troll vous saute dessus et vous mourrez ecrasé"
         },
         "25": {
             "message": "Vous tombez sur une horde de loup, vous terminez en festin pour la meute"
         },
         "29": {
-            "message": "Intendant: alors comme ca on fricote avec la fillote de notre seigneur, tu mourra écorché sur la place du marché !"
+            "message": "Alors comme ca on fricote avec la fillote de notre seigneur ? Tu mourras écorché sur la place du marché !"
         },
         "35": {
             "message": "Vous rentrez de mission bredouille, le seigneur est furieux, vous passerez le reste de votre existence dans une gôle"
         },
         "37": {
-            "message": "Vous foncez sur le camp, les rebelles, qui étaient sur le qui vive, déciment votre escouade sans difficultée"
+            "message": "Vous foncez sur le camp, les rebelles, qui étaient sur le qui vive, déciment votre escouade sans difficulté"
         },
         "43": {
-            "message": "Vous galopez dans la foret en pleine nuit. Votre visage d’ahuri rencontre malencontreusement une solide branche, vous mourrez "
+            "message": "Vous galopez dans la forêt en pleine nuit. Votre visage d’ahuri rencontre malencontreusement une solide branche, vous mourrez "
         },
         "49": {
             "message": "Pendant que vous vous déléctez des cris du public, Godefroy se relève et vous enfonce son épée en plein torse"
         },
         "54": {
-            "message": "“Ahh, nous avons donc affaire à un comique!” *Balance un kick sorti de nul part* Vous ne savez plus comment vous vous appelez et etes déclaré vaincu..."
+            "message": "“Ahh, nous avons donc affaire à un comique!” *Balance un kick sorti de nul part* Vous ne savez plus comment vous vous appelez et êtes déclaré vaincu..."
         },
         "68": {
-            "message": "Vous mourrez sous pile de 1 et de 0 ..."
+            "message": "Vous mourrez sous une pile de 1 et de 0 ..."
         }
     },
 
@@ -128,7 +128,7 @@
                 "name": "Intendant",
                 "skin": "/images/skins/intendant.png"
             },
-            "message": "Mes hommes m'ont assurés que tu a passé ta journée à te saouler comme un porc ! Tu sera châtié !",
+            "message": "Mes hommes m'ont assurés que tu a passé ta journée à te saouler comme un porc ! Tu seras châtié !",
             "answers": {
                 "1": {
                     "message": "Accepter son sort",
@@ -152,7 +152,7 @@
                     "link": "/game/9"
                 },
                 "2": {
-                    "message": "Reclamer de l'alcool en plus",
+                    "message": "Réclamer de l'alcool en plus",
                     "link": "/game/7"
                 }
             }
@@ -257,7 +257,7 @@
                 "name": "Intendant",
                 "skin": "/images/skins/intendant.png"
             },
-            "message": "Jour 2: Vous vous réveillez dans la forêt, vous n'avez aucune idée de l'endroit ou vous êtes",
+            "message": "Jour 2: Vous vous réveillez dans la forêt, vous n'avez aucune idée de l'endroit où vous êtes",
             "answers": {
                 "1": {
                     "message": "Prendre à droite",
@@ -288,7 +288,7 @@
                 "name": "Seigneur",
                 "skin": "/images/skins/roi.png"
             },
-            "message": "Ainsi tu souhaite rejoindre ma garde ? Soite. Si tu bat ce troll des montagnes, tu deviendra garde néophyte !",
+            "message": "Ainsi tu souhaites rejoindre ma garde ? Soite. Si tu bats ce troll des montagnes, tu deviendras garde néophyte !",
             "answers": {
                 "1": {
                     "message": "Accepter",
@@ -388,7 +388,7 @@
                 "name": "Intendant",
                 "skin": "/images/skins/intendant.png"
             },
-            "message": "Jour 3: Bien le bonjour, désormais vous êtes garde, votre première mission est de débusquer un groupe de rebelles cachés dans la forêt, ramenez les morts ou vifs !!",
+            "message": "Jour 3: Bien le bonjour, désormais vous êtes garde, votre première mission est de débusquer un groupe de rebelles caché dans la forêt, ramenez les morts ou vifs !!",
             "answers": {
                 "1": {
                     "message": "Partir en mission",
@@ -401,7 +401,7 @@
                 "name": "Intendant",
                 "skin": "/images/skins/intendant.png"
             },
-            "message": "Jour 3: vous vous réveillez dans un lit qui n’est pas le vôtre",
+            "message": "Jour 3: Vous vous réveillez dans un lit qui n’est pas le vôtre",
             "answers": {
                 "1": {
                     "message": "Partir le plus vite possible, par la fenêtre",
@@ -432,7 +432,7 @@
                 "name": "Intendant",
                 "skin": "/images/skins/garde.png"
             },
-            "message": "Après plusieurs heure de traque, vous apercevez quelqu’un au loin",
+            "message": "Après plusieures heures de traque, vous apercevez quelqu’un au loin",
             "answers": {
                 "1": {
                     "message": "Foncer sur lui",
@@ -466,10 +466,10 @@
                 "name": "Intendant",
                 "skin": "/images/skins/garde.png"
             },
-            "message": "Vos collègues vous surnomme à présent “L’idiot de la garde”, pour avoir tué le rebelle qui aurait pu vous servir",
+            "message": "Vos collègues vous surnomment à présent “L’idiot de la garde”, pour avoir tué le rebelle qui aurait pu vous servir",
             "answers": {
                 "1": {
-                    "message": "Accepter d’etre la nouvelle tete de turc de la garde",
+                    "message": "Accepter d’être la nouvelle tête de turc de la garde",
                     "link": "/game/33"
                 },
                 "2": {
@@ -514,10 +514,10 @@
                 "name": "Intendant",
                 "skin": "/images/skins/brigand.png"
             },
-            "message": "Vous tombez par hasard sur le camp rebelle",
+            "message": "Vous tombez par hasard sur le camp des rebelles",
             "answers": {
                 "1": {
-                    "message": "Lancer l'assault",
+                    "message": "Lancer l'assaut",
                     "link": "/lose/37"
                 },
                 "2": {
@@ -535,7 +535,7 @@
             "message": "La nuit est tombée",
             "answers": {
                 "1": {
-                    "message": "Lancer l'assault",
+                    "message": "Lancer l'assaut",
                     "link": "/lose/37"
                 },
                 "2": {
@@ -592,7 +592,7 @@
                 "name": "Intendant",
                 "skin": "/images/skins/intendant.png"
             },
-            "message": "Jour 4: Je vous apporte une terrible nouvelle, notre seigneur bien aimé s’est tué cette nuit après avoir voulu se raser avec son épée, le pauvre s’est tranché la gorge. Quoi qu’il en soit, en l’absence de descendance, la loi est claire: “Un tournoi entre les chevaliers de la seigneurie doit etre organisé afin de désigner le nouveau seigneur”. Vous sentez vous pret à relever le défi ?!",
+            "message": "Jour 4: Je vous apporte une terrible nouvelle, notre seigneur bien aimé s’est tué cette nuit après avoir voulu se raser avec son épée, le pauvre s’est tranché la gorge. Quoi qu’il en soit, en l’absence de descendance, la loi est claire: “Un tournoi entre les chevaliers de la seigneurie doit être organisé afin de désigner le nouveau seigneur”. Vous sentez vous pret à relever le défi ?!",
             "answers": {
                 "1": {
                     "message": "Je vais me battre",
@@ -610,7 +610,7 @@
                 "name": "Intendant",
                 "skin": "/images/skins/intendant.png"
             },
-            "message": "Je n’en attendais pas moi de votre part ! Votre premier adversaire n’est autre que Godefroy de la Tonelle, un chevalier expérimenté et assoifé de combat ! Tenez vous pret !  ",
+            "message": "Je n’en attendais pas moi de votre part ! Votre premier adversaire n’est autre que Godefroy de la Tonelle, un chevalier expérimenté et assoifé de combat ! Tenez vous prêt !  ",
             "answers": {
                 "1": {
                     "message": "Engager le combat",
@@ -644,7 +644,7 @@
                 "name": "Godefroy de la Tonelle",
                 "skin": "/images/skins/firstFight.svg"
             },
-            "message": "“Hééé ca fait maleuuuuu”",
+            "message": "“Hééé ça fait maleuuuuu”",
             "answers": {
                 "1": {
                     "message": "Mettre une balayette",
@@ -661,7 +661,7 @@
                 "name": "Godefroy de la Tonelle",
                 "skin": "/images/skins/firstFight.svg"
             },
-            "message": "*Le casque s’est enfoncer dans la tete de votre adversaire “Hhhmpff Hhhmpff”",
+            "message": "*Le casque s’est enfoncé dans la tete de votre adversaire “Hhhmpff Hhhmpff”",
             "answers": {
                 "1": {
                     "message": "Porter le coup final",
@@ -678,7 +678,7 @@
                 "name": "Godefroy de la Tonelle",
                 "skin": "/images/skins/firstFight.svg"
             },
-            "message": "Godefroy est par terre, incapble de se relever tel une tortue sur le dos",
+            "message": "Godefroy est par terre, incapable de se relever tel une tortue sur le dos",
             "answers": {
                 "1": {
                     "message": "Porter le coup final",
@@ -753,7 +753,7 @@
                 "name": "Henri de Pavard",
                 "skin": "/images/skins/secondFight.svg"
             },
-            "message": "“AHHH, MA JAMMMMBE, JE ME BATS COMMENT MAINTENANT ?”",
+            "message": "“AHHH, MA JAMMMMBE, JE ME BAT COMMENT MAINTENANT ?”",
             "answers": {
                 "1": {
                     "message": "Ne rien dire et l’éxecuter",
@@ -817,10 +817,10 @@
                 "name": "Henri de Pavard",
                 "skin": "/images/skins/secondFight.svg"
             },
-            "message": "“Merci, vous etes un homme bon!”",
+            "message": "“Merci, vous êtes un homme bon!”",
             "answers": {
                 "1": {
-                    "message": "Quitter la zone avant qu’il ne vous demande de devenir votre ami",
+                    "message": "Quitter la zone avant qu’il ne vous demande de devenir son ami",
                     "link": "/game/60"
                 }
             }
@@ -830,7 +830,7 @@
                 "name": "Intendant",
                 "skin": "/images/skins/intendant.png"
             },
-            "message": "Vous y etes presque, plus qu’un seul combat et vous deviendrez notre seigneur !",
+            "message": "Vous y êtes presque, plus qu’un seul combat et vous deviendrez notre seigneur !",
             "answers": {
                 "1": {
                     "message": "Combat suivant",
@@ -863,7 +863,7 @@
                     "link": "/game/63"
                 },
                 "2": {
-                    "message": "Hein !",
+                    "message": "Hein ?!",
                     "link": "/game/63"
                 }
             }
@@ -912,7 +912,7 @@
                 "name": "Chevalier du Binaire",
                 "skin": "/images/skins/thirdFight.svg"
             },
-            "message": "Je ne peux vivre après cet échec, prends ma vie comme tu prendra le trône !",
+            "message": "Je ne peux vivre après cet échec, prends ma vie comme tu prendras le trône !",
             "answers": {
                 "1": {
                     "message": "Accepter sa requête",
