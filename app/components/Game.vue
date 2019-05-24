@@ -33,7 +33,12 @@ h1 {
   background-position: center;
   background-size: cover;
 }
-
+.sign {
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  opacity: .9;
+}
 .question {
   position: absolute;
   bottom: 0;
@@ -56,7 +61,7 @@ h1 {
     justify-content: space-evenly;
     align-items: center;
     .button:hover {
-      border: 2px solid black;
+      border: 4px solid black;
     }
   }
 
@@ -116,9 +121,11 @@ export default {
       toDelete ? document.body.removeChild(toDelete) : ''
       if(localStorage.getItem('music') === "on") {
         let sound = new Sound(this.question.music.src, this.question.music.loop)
-        sound.sound.classList.add('active')
         sound.setVolume(this.question.music.volume)
-        sound.play();
+        setTimeout(() => {
+          sound.play();
+          sound.sound.classList.add('active')
+        }, 200);
         return sound
       }
     },

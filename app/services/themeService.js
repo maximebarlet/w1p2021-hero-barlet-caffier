@@ -27,4 +27,4 @@ class theme {
   }
 }
 
-module.exports = new theme('/sounds/home-theme.mp3', 0.1);
+module.exports = new theme('/sounds/main-sound.wav', 0.1);

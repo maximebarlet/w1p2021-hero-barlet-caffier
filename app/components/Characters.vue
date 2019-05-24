@@ -25,7 +25,7 @@ h1 {
     font-size: 24px;
     background-color: #00000096;
     padding: 30px;
-    font-family: "Almendra";
+    font-family: "Almendra-Bold";
 }
 .characters {
     display: flex;
@@ -33,6 +33,8 @@ h1 {
     align-items: center;
     width: 60vw;
     height: 40vh;
+    font-family: "Almendra-Bold";
+    text-decoration-line: underline;
 }
 </style>
 
@@ -44,7 +46,7 @@ import theme from '../services/themeService';
 export default {
     data () {
         return {
-            message: 'Choisissez votre personnage',
+            message: 'Selection du personnage',
             characters: data.characters,
             image: data.character.image,
             click: this.clickHandle()
